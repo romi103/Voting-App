@@ -1,0 +1,35 @@
+{
+  "name": "Night Life App",
+  "version": "1.0.0",
+  "description": "voting app",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "bars"
+  ],
+  "author": "Roman Lorent",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.15.0",
+    "bootstrap": "^3.3.7",
+    "chart.js": "^2.1.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.1",
+    "ejs": "^2.4.1",
+    "express": "^4.13.4",
+    "express-session": "^1.13.0",
+    "express-validator": "^2.20.10",
+    "jquery": "^2.2.3",
+    "materialize-css": "^0.97.7",
+    "method-override": "^2.3.5",
+    "mongoose": "^4.4.13",
+    "morgan": "^1.7.0",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "validator-js": "^0.2.1"
+  }
+}
